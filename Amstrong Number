@@ -16,7 +16,7 @@ public class Main
 	        r = Math.pow(y,count);
 	        x = x/10;
 	    }
-	    if(r==x){
+	    if(r == x){
 		    System.out.println("Yes");
 	    }
 	    else{
