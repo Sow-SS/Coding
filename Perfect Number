@@ -4,7 +4,7 @@ public class Main
 	public static void main(String[] args) {
 	    Scanner sc = new Scanner(System.in);
 	    int s = sc.nextInt();
-	    int num=0;
+	    int num = 0;
 	    for(int i=1;i<=s/2;i++){
 	        if(s%i==0){
 	            num += i;
