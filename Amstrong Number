@@ -1,0 +1,26 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    int x = sc.nextInt();
+	    int y = 0;
+	    double r = 0;
+	    int count = 0;
+	    while(x != 0){
+	        x = x/10;
+	        count++;
+	    }
+	    while(x != 0){
+	        y = x%10;
+	        r = Math.pow(y,count);
+	        x = x/10;
+	    }
+	    if(r==x){
+		    System.out.println("Yes");
+	    }
+	    else{
+	        System.out.println("No");
+	    }
+	}
+}
