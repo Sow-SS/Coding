@@ -1,0 +1,17 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    int x = sc.nextInt();
+	    int sum = 0;
+	    int z = 0;
+	    while(x!=0){
+	        int y = x%10;
+	        z += y * y;
+	        x = x/10;
+	    }
+	    sum += z;
+		System.out.println(sum);
+	}
+}
