@@ -1,0 +1,20 @@
+import java.util.*;
+public class Main               //FOR SSPACES USE 2 INNER LOOPS
+{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);                     //      *
+        int n = sc.nextInt();                                    //     **
+        for(int i=1;i<=n;i++){                                   //    ***
+            // this loop determins the no. of spaces             //   ****
+            for(int j=1;j<=n-i;j++){                             //  *****
+              System.out.print(" ");
+            }
+            // this determins the no. of stars AFTER spaces
+            for(int k=1;k<=i;k++){
+                //k<=i determines the stars value
+              System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
