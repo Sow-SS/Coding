@@ -1,0 +1,14 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {           // 1
+	    Scanner sc = new Scanner(System.in);           // 12
+	    int n = sc.nextInt();                          // 123
+	    for(int i=1;i<=n;i++){                        //  1234
+	        for(int j=1;j<=i;j++){                    //  12345
+	            System.out.print(j);
+	        }
+	        System.out.println();
+	    }
+	}
+}
